@@ -1,0 +1,134 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@300&display=swap');
+
+@font-face {
+    font-family: 'idroid';
+    src: url(idroid.otf) format('opentype');
+}
+
+body {
+    background-color: #cdffb7;
+}
+header {
+    background-image: linear-gradient(to top, #caffb0, #53C21B);
+    color: white;
+    background-attachment: fixed;
+    text-align: center;
+    box-shadow: -4px 5px 4px 0px rgb(0 167 0 / 53%);
+    margin-left: -11px;
+    margin-right: -14px;
+    text-shadow: 3px 5px 4px rgba(13, 99, 17, 0.555);
+}
+
+header > h2 {
+    font-size: 20px;
+}
+
+h1 {
+    font-size: 50px;
+    font-family: Gemunu Libre, sans-serif;
+    padding-top: 20px;
+    margin-bottom: 5px;
+    margin-top: -8px;
+}
+
+nav {
+    text-align: left;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+nav > a {
+    text-decoration: none;
+    font: bolder 15px Arial, sans-serif;
+    color: white;
+    margin: 5px 5px 0 5px;
+
+}
+nav > a:hover {
+    background-color: white;
+    color: #4A7534;
+    padding: 5px 5px 5px 5px;
+    border-radius: 5px;
+}
+
+main {
+    margin: 0px 300px 0px 300px;
+    text-align: justify;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px 0px 1px 0px;
+    box-shadow: -2px 4px 12px 0px #1B7524;
+    border-radius: 10px 10px 10px 10px;
+    
+}
+
+article > p {
+    padding: 0px 10px 0px 10px;
+}
+
+.titulos {
+    font-family: 'idroid';  
+    padding-left: 15px;
+    color: #1B7524;
+}
+
+article > h2 {
+    padding-top: 15px;
+}
+
+article > h2 {
+    font-size: 25px;
+    margin: 10px 10px 10px 10px;
+}
+h3 {
+    background-image: linear-gradient(to left, #caffb0, #53C21B, #caffb0);
+}
+
+
+
+#video {
+    background-color: #3F6B22;
+    text-align: center;
+    
+}
+
+aside {
+    background-color: #cdffb7;
+    border-radius: 20px 20px 20px 20px;
+    margin: 30px 30px 31px 32px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: -4px 3px 11px 0px #1B7524;
+    padding-bottom: 10px;
+}
+
+aside > h2 {
+    background-color: #2DC23B;
+    border-radius: 10px 10px 0px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding: 11px 0px 11px 14px;
+    color: white;
+}
+
+aside > p {
+    padding: 0px 10px 0px 10px;
+}
+
+footer {
+    background-color: #53C21B;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px -19px 0px -18px;
+    font-weight: bolder;
+    color: white;
+    font-size: 15px;
+}
+
+
+
+
+
+
+
