@@ -2,7 +2,24 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Passion+One&family=Sriracha&display=swap');
 
+body{
+    /*background-color: white;
+    background-image: url(imagens/background001.jpg);
+    background-size: 1000px 500px;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;*/
+
+
+
+
+    background: url(imagens/background001.jpg) no-repeat center top fixed, url(imagens/background002.jpg) no-repeat center bottom fixed;
+    background-size: 1000px 500px;
+
+
+}
 .titulo{
+    height: 100px;
     font-family: Passion One;
     color:white;
     background-color: black;
@@ -10,17 +27,20 @@
     text-align: center;
     font-size: 50px;
     
-}
-
-a{
     
 }
+
 #autor{
     font-size: 15px;
 }
 
 p{
     font-family: Sriracha, 'sans-serif';
-    border: 10px;
+    font-size: 20px;
+    border: 5px;
+    text-align: left;
+    width: 200px;
+    background-color:white;
+    Padding: 10px 10px 10px 10px;
 }
 
