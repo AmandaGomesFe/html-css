@@ -15,6 +15,7 @@ body{
 
     background: url(imagens/background001.jpg) no-repeat center top fixed, url(imagens/background002.jpg) no-repeat center bottom fixed;
     background-size: 1000px 500px;
+    background-size: 900px 300px
 
 
 }
