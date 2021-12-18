@@ -2,22 +2,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Passion+One&family=Sriracha&display=swap');
 
+
 body{
-    /*background-color: white;
-    background-image: url(imagens/background001.jpg);
-    background-size: 1000px 500px;
-    background-repeat: no-repeat;
-    background-position: center top;
-    background-attachment: fixed;*/
-
-
-
-
-    background: url(imagens/background001.jpg) no-repeat center top fixed, url(imagens/background002.jpg) no-repeat center bottom fixed;
-    background-size: 1000px 500px;
-    background-size: 900px 300px
-
-
+  background-color: white;
+  height: 98vh;
 }
 .titulo{
     height: 100px;
@@ -35,13 +23,43 @@ body{
     font-size: 15px;
 }
 
+section{
+    width: 100%
+}
+.branco{
+    background-color: white;
+}
+
+#primeiraimagem{
+    background: url(imagens/background001.jpg) no-repeat center center fixed; 
+    background-size: cover;
+    color: white;
+}
+
+.sombra{
+    background-color: rgba(0, 0, 0, 0.295)
+}
+#transparente{
+   background: url(imagens/background002.jpg) no-repeat center bottom fixed;
+   background-size: cover;
+}
+
 p{
     font-family: Sriracha, 'sans-serif';
-    font-size: 20px;
+    font-size: 50px;
     border: 5px;
     text-align: left;
-    width: 200px;
-    background-color:white;
-    Padding: 10px 10px 10px 10px;
+    width: 500px;
+    margin-left: 10px;
+    
+}
+
+footer{
+    font-size: 20px;
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+
 }
 
